@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | City Walks in Manila</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">CITY WALKS<span>.</span></a>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="destinations.html">DESTINATIONS</a>
+            <a href="contact.html" aria-current="page">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="subtitle">GET IN TOUCH</p>
+                <h1>LET'S TALK<br>ABOUT MANILA.</h1>
+                <p class="description">
+                    Have a question, suggestion, or a place
+                    you want us to feature? Send us a message.
+                </p>
+            </div>
+
+            <div class="hero-bottom">
+                <span>CITY WALKS.</span>
+                <span>MANILA, PHILIPPINES</span>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="contact-info">
+                <p class="section-label">01 / CONTACT US</p>
+                <h2>YOUR NEXT<br>MESSAGE STARTS HERE.</h2>
+                <p>
+                    We would love to hear your thoughts about
+                    our website and your favorite places in Manila.
+                    Fill out the form and send us your message.
+                </p>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+
+                <label for="name">YOUR NAME</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+
+                <label for="email">EMAIL ADDRESS</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+
+                <label for="subject">SUBJECT</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="suggestion">Destination Suggestion</option>
+                    <option value="question">General Question</option>
+                    <option value="feedback">Website Feedback</option>
+                </select>
+
+                <label for="message">YOUR MESSAGE</label>
+                <textarea id="message" name="message" rows="6"
+                          placeholder="Write your message here..." required></textarea>
+
+                <button type="submit">SEND MESSAGE →</button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>CITY WALKS<span>.</span> — MANILA, PHILIPPINES</p>
+        <p>© 2026 CITY WALKS IN MANILA</p>
+    </footer>
+
+</body>
+</html>
